@@ -1,0 +1,56 @@
+
+
+.contactcontainer{
+    min-height: 100vh;
+}
+
+
+#contactcontent{
+width: 50%;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+flex-direction: column;
+margin-left: 25%;
+height: auto;
+
+}
+
+.text-center{
+    color: rgb(173, 58, 58);
+}
+
+
+
+@media only screen and(max-width: 600px){
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+
+@media only screen and(max-width: 800px){
+
+    #contactcontent{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 25%;
+        height: 70vh;
+        overflow: scroll;
+        }
+}
+
+
+
+  
